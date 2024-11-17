@@ -1,6 +1,7 @@
 name: on-push-schedule-extend-noip
 
 on:
+  workflow_dispatch:
   push:
   schedule:
     - cron: '15 21 */9 * *'
